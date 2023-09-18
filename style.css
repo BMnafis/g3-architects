@@ -21,9 +21,29 @@ li{
     margin: auto;
     max-width: 1350px;
 }
+.main-btn{
+    background-color: #FF900E;
+    color: #fff;
+    width: 130px;
+    border-radius: 5px;
+    padding: 14px 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.4s all;
+    display: block;
+    border: none;
+}
+.main-btn:hover{
+    background-color: #db7f15;
+}
 /* Header */
 #header{
     background: rgba(255, 144, 14, 0.10);
+    overflow: hidden;
+    padding-bottom: 30px;
 }
 .top-header{
     padding: 25px;
@@ -62,8 +82,19 @@ li{
     margin-top: 30px;
 }
 .banner-text{
-    font-size: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #666;
     text-align: center;
-    width: 60%;
-    margin: auto;
+    width: 55%;
+    margin: 25px auto;
+    line-height: 19px;
+    overflow: hidden;
+}
+.banner-img{
+    width: 90%;
+    margin: 35px auto;
+}
+.banner-img img{
+    width: 100%;
 }
